@@ -1,0 +1,45 @@
+{
+    "manifest_version": 2,
+    "name": "Web Annonator",
+    "short_name": "Web Annonator",
+    "description": "A chrome extension for annotating webpages.",
+    "version": "1.0.0",
+    "icons": {
+        "16":"images/logo.png",
+        "32":"images/logo.png",
+        "64":"images/logo.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16":"images/logo.png",
+            "32":"images/logo.png",
+            "64":"images/logo.png"
+            
+        },
+        "default_title": "Draw",
+        "default_popup": "/popup/html/home.html"
+    },
+    "background": {
+        "scripts": [
+            "background/background.js",
+            "background/captureAPI.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "activeTab",
+        "storage",
+        "unlimitedStorage",
+        "downloads"
+    ],
+    "web_accessible_resources": [
+        "images/*.png",
+        "content-scripts/*",
+        "web-resources/*/*",
+        "icons/*/*"
+    ],
+    "content_security_policy": "default-src 'self'; img-src data;",
+    "offline_enabled": true
+}

@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/library.css" type="text/css"/>
+    <link rel="stylesheet" href="../../icons/css/wpc.css" />
+</head>
+<body class="library">
+    <a id="back-to-home" href="home.html">
+        <i class="wpc-icon-left"></i> <span>Back to home</span>
+    </a>
+    <div class="row">
+        <div id="slideshow" class="empty">
+            <img id="slide-image"/>
+            <span class='save-message'>Draw and Save a page<br/>to add it to the Library</span>
+            <div class="row screenshot-navigation">
+                <i class="wpc-icon-left" title="Previous"></i>
+                <i class="wpc-icon-right" title="Next"></i>
+            </div>
+            <div class="row screenshot-actions">
+                <div class="download-screenshot" title="Download Screenshot"><i class="wpc-icon-floppy"></i>&nbsp;<span>Download</span></div>
+                <div class="delete-screenshot" title="Delete Screenshot"><i class="wpc-icon-trash"></i>&nbsp;<span>Delete</span></div>
+            </div>
+            <div class="row screenshot-number-notification">
+                <span id="current-screenshot-number">0</span> of <span id="total-screenshot-number">0</span>
+            </div>
+            <div class="row image-loader">
+                <div id="loader-caption">
+                    Saving&nbsp;<span id='loader-percent'>0</span>%&nbsp;of&nbsp;page
+                </div>
+                <div id="loader-bar"><div id='passed-bar'></div></div>
+                <div id="loader-caption">
+                    Please do not close this window, or move your mouse
+                </div>
+            </div>
+        </div>
+        <div id="memory-limit" data-warning="0">
+            Total size: <span id="total-memory"></span> MB
+            <i class="fa fa-exclamation-circle"></i>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="../js/library.js" type="text/javascript"></script>
+</body>
+</html>

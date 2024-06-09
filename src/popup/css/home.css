@@ -1,0 +1,105 @@
+html {
+  margin: 0; }
+
+body {
+  margin: 0;
+  font-family: 'Tahoma', 'serif';
+  font-size: 18px;
+  background-color: rgb(218, 212, 212);
+  background: transparent;
+ }
+
+.hidden {
+  display: none; }
+
+.row {
+  display: block; }
+
+.title {
+  width: 150px;
+  border-style: solid;
+  border-color: rgb(231, 231, 231);
+  cursor: pointer;
+  background: transparent;
+ }
+
+a.title > .title-text {
+  color: black !important; }
+
+.title > .fa:not(.fa-info),
+.title > .fa-layers > .fa- {
+  font-size: 0.8em;
+  transform: translate(0, -10%);
+  padding: 0 0 0 5px; }
+
+.title > .fa-info {
+  font-size: 0.8em;
+  transform: translate(30%, -10%);
+  padding: 0 0 0 5px; }
+
+.title-text {
+  font-size: 1em;
+  position: absolute;
+  left: 25%; }
+
+.title:hover {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe9+0,e0e0e0+100 */
+  background: linear-gradient(to bottom, #feffe9 0%, #e0e0e0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+
+.title:first-child {
+  border-top-width: 1px !important; }
+
+.title:nth-of-type(2n + 1), .title:nth-of-type(2n) {
+  border-width: 0 1px 1px 1px; }
+
+.title .fa-save {
+  color: rgb(93, 87, 87); }
+
+.title .fa-book {
+  color: rgb(93, 87, 87); }
+
+.title .fa-cog {
+  color: rgb(93, 87, 87); }
+
+.title .fa-check {
+  color: rgb(93, 87, 87); }
+
+.title .fa-times {
+  color: rgb(30, 28, 28); }
+
+.title .fa.fa-info {
+  color: rgb(30, 27, 27); }
+
+.title[data-action-id="open"] [data-state="open"],
+.title[data-action-id="open"] [data-state="disabled"] {
+  display: none; }
+
+.title[data-action-id="close"] [data-state="close"],
+.title[data-action-id="close"] [data-state="disabled"] {
+  display: none; }
+
+.title[data-action-id="disabled"] [data-state="open"],
+.title[data-action-id="disabled"] [data-state="close"] {
+  display: none; }
+
+.title[data-action-id="disabled"] [data-state="disabled"] {
+  font-size: 1em; }
+
+.title[data-action-id="disabled"] .fa-[data-state="disabled"] {
+  color: red; }
+
+.title[data-action-id="disabled"] .title-text[data-state="disabled"] {
+  color: graytext; }
+
+.title[data-action-id="close"] .title-text[data-state="close"] {
+  color: black;
+  font-weight: bold; }
+
+/* .title[data-action-id="save"] {
+      border-bottom-width: 0 !important;
+  }
+  
+  .title[data-action-id="about"] {
+      border-width: 0 1px 1px 1px;
+  } */

@@ -1,0 +1,33 @@
+{
+  "name": "web-annonator",
+  "version": "1.0.0",
+  "description": "A chrome extension for annotating webpages.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Damian96/web-page-canvas.git"
+  },
+  "scripts": {},
+  "author": "khushi agrawal",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "2.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify-es": "^0.1.9",
+    "gulp-uglifycss": "^1.0.9",
+    "jshint": "^2.9.5",
+    "node-sass": "^4.14.1"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "moz": true,
+    "undef": true,
+    "unused": true,
+    "browser": true,
+    "devel": true,
+    "sub": true
+  }
+}

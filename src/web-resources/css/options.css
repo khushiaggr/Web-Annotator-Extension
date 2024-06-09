@@ -1,0 +1,159 @@
+body,
+html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #bfb8b8;
+    font-family: 'Tahoma', 'serif';
+    font-size: 18px;
+}
+
+.row {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+input[type="number"] {
+    text-align: center;
+    color: #625f5f;
+}
+
+div.button {
+    padding: 10px;
+    color: #fff;
+    background-color: #699292;
+    max-width: 75px;
+    max-height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+div.button:hover {
+    box-shadow: 0px 0px 10px 5px #81b4b4;
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	background-color: #755673;
+	min-height: 100%;
+	padding: 10px;
+}
+
+
+.form-group,
+.form-section,
+.form-action {
+    padding: 10px;
+    color: #fff;
+}
+
+.form-group.disabled {
+    color: graytext !important;
+}
+
+.form-section {
+    margin: 0 0 15px 0;
+}
+
+.section-title > .title-text {
+    font-size: 1.25em;
+    position: relative;
+}
+
+.section-title > .title-text > .border-bottom {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50%;
+    height: 2.5px;
+    background-color: #872929;
+}
+
+.section-title .fa-cog,
+.section-title .fa-sliders-h {
+    color: gray;
+}
+
+#options .form-group .form-col {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    text-align: center;
+}
+
+#options label {
+    font-size: 1.1em;
+}
+
+#options label i {
+    visibility: hidden;
+}
+
+#options .form-group:not(.disabled):hover label > i {
+    visibility: visible;
+}
+
+#options label i {
+    font-size: 0.9em;
+}
+
+#options label > .fa-trash-alt {
+    color: red;
+}
+
+#options label > .fa-paint-brush {
+    color: #762ac1;
+}
+
+#options label > .fa-pencil-alt {
+    color: yellow;
+}
+
+#options label > .fa-save {
+    color: blue;
+}
+
+#options label > .fa-hdd {
+    color: #1258c9;
+}
+
+#options label > .fa-image {
+    color: #00a35c;
+}
+
+#options input,
+#options button {
+    cursor: pointer;
+}
+
+#options input,
+#options button,
+#options textarea {
+    font-size: 1.2em;
+}
+
+#options input[type="checkbox"] {
+    transform: scale(1.5, 1.5);
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+#options hr {
+    margin: 0 -10px 0 -10px;
+}
