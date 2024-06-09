@@ -32,14 +32,14 @@ This Chrome extension allows users to draw, highlight, and write annotations dir
 - Select the src directory from the cloned repository.
 
 ## Using the Extension
--Click on the extension icon in the Chrome toolbar to activate the annotation tools.
--Use the toolbar to select drawing, highlighting, or writing tools.
--Customize colors and brush sizes as needed.
+- Click on the extension icon in the Chrome toolbar to activate the annotation tools.
+- Use the toolbar to select drawing, highlighting, or writing tools.
+- Customize colors and brush sizes as needed.
 
 ## Contribution
 This is the basic project and can be highly optimized further. If you want to contribute please do the following:
--Fork the repository.
--Create a new branch (git checkout -b feature-branch).
--Commit your changes (git commit -am 'Add new feature').
--Push to the branch (git push origin feature-branch).
--Create a new Pull Request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a new Pull Request.
